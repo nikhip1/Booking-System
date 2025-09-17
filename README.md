@@ -42,6 +42,7 @@ It provides functionality to manage resources (e.g., rooms, vehicles, equipment)
 ```bash
 git clone https://github.com/nikhip1/Booking-System.git
 cd Booking-System
+```bash
 
 ### 2️⃣ Configure Database
 Update src/main/resources/application.properties with your MySQL settings:
