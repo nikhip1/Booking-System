@@ -42,17 +42,18 @@ It provides functionality to manage resources (e.g., rooms, vehicles, equipment)
 ```bash
 git clone https://github.com/nikhip1/Booking-System.git
 cd Booking-System
-```bash
+```
 
 ### 2️⃣ Configure Database
 Update src/main/resources/application.properties with your MySQL settings:
-```bash
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/booking_db?createDatabaseIfNotExist=true
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+```
 
 ### 3️⃣ Build & Run
 ```bash
@@ -61,6 +62,7 @@ mvn clean install
 
 # Run the application
 mvn spring-boot:run
+```
 
 --- 
 Application will start at:
